@@ -1,4 +1,5 @@
 <?php
+use Exercise;
 /**
  * Created by PhpStorm.
  * User: bark
@@ -15,7 +16,11 @@ class ExerciseController extends BaseController {
     }
 
     public function show($id) {
-        return Response::json("hej2");
+        return Response::json(Exercise::find($id));
     }
+    public function store() {
+        return Response::json("storing");
+    }
+
 
 }

@@ -10,6 +10,5 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
-Route::get('/', 'ExerciseController@index')
-Route::get('/hej', 'ExerciseController@index');
+Route::get('/', 'ExerciseController@index');
 Route::resource('exercise', 'ExerciseController');

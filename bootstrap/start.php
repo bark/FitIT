@@ -26,6 +26,7 @@ $app = new Illuminate\Foundation\Application;
 
 $env = $app->detectEnvironment(array(
 	'bark' => array('bark-U36JC'),
+	'e' => array('e-UX32VD'),
 	
 
 ));
